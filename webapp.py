@@ -20,6 +20,7 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_sc
 from plotting_functions import plot_decision_boundary
 import matplotlib.pyplot as plt
 import numpy as np
+sns.set_style("darkgrid")
 
 
 def compute_metrics(y_true, y_pred):
