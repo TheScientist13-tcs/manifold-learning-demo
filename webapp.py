@@ -20,6 +20,7 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_sc
 from plotting_functions import plot_decision_boundary
 import matplotlib.pyplot as plt
 import numpy as np
+import seaborn as sns
 sns.set_style("darkgrid")
 
 
