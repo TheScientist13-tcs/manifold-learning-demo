@@ -4,3 +4,4 @@ plotly
 htbuilder
 pandas
 matplotlib
+seaborn
