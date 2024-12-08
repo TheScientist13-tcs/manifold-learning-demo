@@ -113,7 +113,7 @@ def main():
 
     with st.sidebar:
         dataset_name = st.selectbox(
-            label="Select Dataset", options=["Circles", "Moons", "Digits"]
+            label="Select Dataset", options=["Circles", "Moons"]
         )
         X, y = generate_dataset(dataset_name, 500)
         st.header("Preprocessing")
